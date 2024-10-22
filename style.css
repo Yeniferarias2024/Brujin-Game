@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box; 
+}
+body{
+    background-color: chocolate;
+}
+.Fondogame{
+    background-image: url(/imagenes/fondogame.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    width: 80%;
+    height: 70vh;
+}
+.brujinmover{
+    position: absolute; /* Permite que se mueva dentro del contenedor */
+    top: 100px; /* Posición inicial */
+    left: 100px; /* Posición inicial */
+    width: 150px; /* Tamaño de la calabaza */
+    height: auto; /* Mantener las proporciones */
+}
